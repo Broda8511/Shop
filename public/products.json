@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "fields": {
+        "title": "PSX Classic",
+        "price": 15.99,
+        "image": {"url": "./images/psxc.jpg" }
+      }
+    },
+    {
+      "id": 2,
+      "fields": {
+        "title": "PS2",
+        "price": 49.99,
+        "image": { "fields": { "file": { "url": "./images/ps2.jpeg" } } }
+      }
+    },
+    {
+      "id": 3,
+      "fields": {
+        "title": "PS3",
+        "price": 59.99,
+        "image": { "fields": { "file": { "url": "./images/ps3.jpeg" } } }
+      }
+    },
+    {
+      "id": 4,
+      "fields": {
+        "title": "PS4",
+        "price": 69.99,
+        "image": { "fields": { "file": { "url": "./images/ps4.jpeg" } } }
+      }
+    },
+    {
+      "id": 5,
+      "fields": {
+        "title": "Shield",
+        "price": 59.99,
+        "image": { "fields": { "file": { "url": "./images/nvidia.jpeg" } } }
+      }
+    },
+    {
+      "id": 6,
+      "fields": {
+        "title": "Pegasus",
+        "price": 99.99,
+        "image": { "fields": { "file": { "url": "./images/pegasus.jpeg" } } }
+      }
+    },
+    {
+      "id": 7,
+      "fields": {
+        "title": "Switch",
+        "price": 49.99,
+        "image": { "fields": { "file": { "url": "./images/switch.jpeg" } } }
+      }
+    },
+    {
+      "id": 8,
+      "fields": {
+        "title": "xbox",
+        "price": 59.99,
+        "image": { "fields": { "file": { "url": "./images/xbox.jpeg" } } }
+      }
+    }
+  ]
+}

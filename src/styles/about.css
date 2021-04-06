@@ -1,0 +1,37 @@
+.about {
+  display: grid;
+  justify-items: center;
+  padding: 0 10rem;
+  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+}
+
+.about__header {
+  display: grid;
+  justify-items: center;
+  margin: 2rem 0;
+}
+
+.about__header h2 {
+  color: #000;
+  font-size: 2rem;
+  padding: 0 12rem;
+  margin-bottom: 3rem;
+
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+.about__paragraph {
+  border: 1px solid #dfdfdf;
+}
+
+.about__paragraph p {
+  font-size: 1.6rem;
+  padding: 1.5rem;
+  background-color: #fff;
+}
+
+.about__pic {
+  width: 57rem;
+}

@@ -1,0 +1,33 @@
+@import "~antd/dist/antd.css";
+
+div.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #fff;
+}
+
+section.shop {
+  flex-grow: 1;
+  font-size: 1.7rem;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+footer {
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  height: 4rem;
+  font-size: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  border-top-color: #888888;
+  border-top-style: dashed;
+  border-top-width: 1px;
+}

@@ -1,0 +1,10 @@
+header {
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    flex-basis: 30vh;
+    overflow: hidden;
+}
