@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 
 const ErrorPage = () => {
@@ -6,4 +7,14 @@ const ErrorPage = () => {
       );
 }
  
+=======
+import React from 'react';
+
+const ErrorPage = () => {
+    return (
+        <div>Error</div>
+      );
+}
+ 
+>>>>>>> e60820b (beta version)
 export default ErrorPage;

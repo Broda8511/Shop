@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .news {
   padding: 2rem;
   margin-top: 5rem;
@@ -27,3 +28,34 @@
   width: 25rem;
   margin: 4rem auto;
 }
+=======
+.news {
+  padding: 2rem;
+  margin-top: 5rem;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.news__photo-container {
+  width: auto;
+  height: 30rem;
+  border-radius: 5px;
+  margin-bottom: 4rem;
+}
+
+.news__photo-container::before {
+  content: "NEW!";
+  font-weight: 700;
+  background-color: #ff0000a8;
+  position: absolute;
+  top: 12%;
+  left: 19%;
+  padding: 0.2rem 3rem;
+}
+
+.news__photo {
+  width: 25rem;
+  margin: 4rem auto;
+}
+>>>>>>> e60820b (beta version)
