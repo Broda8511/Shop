@@ -1,207 +1,100 @@
-<<<<<<< HEAD
 nav {
-    position: fixed;
-    width: 100%;
-    z-index: 10;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 nav ul {
-    text-align: center;
-    justify-content: center;
-    font-size: 1.7rem;
-    font-weight: 600;
-    background-color: #ffffffd0;
-    list-style: none;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(8, minmax(0, 1fr));
+  text-align: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  font-weight: 600;
+  background-color: #ffffffd0;
+  list-style: none;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
-
 nav ul a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000;
-    transition: .3s;
-    height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  transition: 0.3s;
+  height: 4rem;
 }
 
 nav ul a:hover {
-    color: #000;
-    background-color: #ffffff;
+  color: #000;
+  background-color: #ffffff;
 }
 
 nav li a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000;
-    transition: .3s;
-    height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  transition: 0.3s;
+  height: 4rem;
 }
 
 nav li a:hover {
-    color: #000;
-    background-color: #ffffff;
+  color: #000;
+  background-color: #ffffff;
 }
 
 nav ion-icon {
-    display: block;
-    margin-right: 0.6rem;
+  display: block;
+  margin-right: 0.6rem;
 }
 
 .nav__cart {
-    display: flex;
-    align-items: center;
-    position: relative;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .nav__cart-icon {
-    display: block;
-    color: #000;
-    font-size: 2.5rem;
-
+  display: block;
+  color: #000;
+  font-size: 2.5rem;
 }
 
 .nav__cart-items {
-    display: block;
-    text-align: center;
-    margin-right: 1rem;
-    position: absolute;
-    font-size: 1rem;
-    font-weight: 700;
-    top: -4px;
-    left: 6px;
-    background-color: #fff;
-    width: 1.5rem;
-    border-radius: 5rem;
+  display: block;
+  text-align: center;
+  margin-right: 1rem;
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 700;
+  top: -4px;
+  left: 6px;
+  background-color: #fff;
+  width: 1.5rem;
+  border-radius: 5rem;
 }
 
 .nav__cart-price {
-    display: block;
-    text-align: center;
-    font-size: 1.3rem;
-    font-weight: 700;
+  display: block;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
 }
 
 .nav__login {
-    display: flex;
-    align-items: center;
-    position: relative;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .nav__login-icon {
-    display: block;
-    color: #000;
-    font-size: 1.7rem;
+  display: block;
+  color: #000;
+  font-size: 1.7rem;
 }
 
 .imgLogo {
-    width: 9rem;
-    margin-left: 3rem;
+  width: 9rem;
+  margin-left: 3rem;
 }
-=======
-nav {
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-}
-
-nav ul {
-    text-align: center;
-    justify-content: center;
-    font-size: 1.7rem;
-    font-weight: 600;
-    background-color: #ffffffd0;
-    list-style: none;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(8, minmax(0, 1fr));
-}
-
-
-nav ul a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000;
-    transition: .3s;
-    height: 4rem;
-}
-
-nav ul a:hover {
-    color: #000;
-    background-color: #ffffff;
-}
-
-nav li a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000;
-    transition: .3s;
-    height: 4rem;
-}
-
-nav li a:hover {
-    color: #000;
-    background-color: #ffffff;
-}
-
-nav ion-icon {
-    display: block;
-    margin-right: 0.6rem;
-}
-
-.nav__cart {
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
-.nav__cart-icon {
-    display: block;
-    color: #000;
-    font-size: 2.5rem;
-
-}
-
-.nav__cart-items {
-    display: block;
-    text-align: center;
-    margin-right: 1rem;
-    position: absolute;
-    font-size: 1rem;
-    font-weight: 700;
-    top: -4px;
-    left: 6px;
-    background-color: #fff;
-    width: 1.5rem;
-    border-radius: 5rem;
-}
-
-.nav__cart-price {
-    display: block;
-    text-align: center;
-    font-size: 1.3rem;
-    font-weight: 700;
-}
-
-.nav__login {
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
-.nav__login-icon {
-    display: block;
-    color: #000;
-    font-size: 1.7rem;
-}
-
-.imgLogo {
-    width: 9rem;
-    margin-left: 3rem;
-}
->>>>>>> e60820b (beta version)
