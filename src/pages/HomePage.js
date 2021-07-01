@@ -13,7 +13,6 @@ const HomePage = () => {
     <div className="news">
       <Splide
         options={{
-          // type         : "loop",
           rewind: true,
           autoplay: true,
         }}
